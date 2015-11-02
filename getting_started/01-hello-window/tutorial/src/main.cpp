@@ -11,8 +11,6 @@ const GLuint WIDTH = 800, HEIGHT = 600;
 
 int main()
 {
-    std::cout << "Starting GLFW context, OpenGL 3.3" << std::endl;
-
     glfwInit();
 
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
